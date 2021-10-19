@@ -5,6 +5,7 @@ int main() {
     std::cout << luckyNumbers << std::endl;
     std::cout << &luckyNumbers[0] << std::endl; // Should be the same result as above.
     std::cout << luckyNumbers[2] << std::endl;
+    std::cout << *(luckyNumbers + 2) << std::endl;
 
     return 0;
 }
