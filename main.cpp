@@ -6,7 +6,7 @@ int main() {
     std::cout << "\n";
 
     for (int i = 0; i <= 4; i++) {
-        std::cout << "Number: ";
+        std::cout << "Number:";
         std::cin >> luckyNumbers[i];
     }
 
